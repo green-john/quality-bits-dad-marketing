@@ -1,0 +1,88 @@
+:root {
+	--color-main: #D77D71;
+	--color-light: #F5F6F5;
+	--color-light-accent: #9A9EA3;
+	--color-dark: #33302D;
+	--color-dark-accent: #A26352;
+}
+
+.bg-dark {
+	background-color: var(--color-dark);
+}
+
+.bg-light {
+	background-color: var(--color-light);
+}
+
+.bg-light-accent {
+	background-color: var(--color-light-accent);
+}
+
+.bg-main {
+	background-color: var(--color-main);
+}
+
+.color-dark {
+	color: var(--color-dark);
+}
+
+.color-light {
+	color: var(--color-light);
+}
+  
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+div#code-img {
+	background-color: var(--color-dark);
+	mask-image: url("https://static.thenounproject.com/png/603928-200.png");
+	/* mask-image: url("https://static.thenounproject.com/png/2821580-200.png"); */
+	mask-position: center center;
+	mask-repeat: no-repeat;
+	mask-size: contain;
+}
+
+a.btn {
+	background-color: var(--color-main);
+	color: var(--color-light);
+	display: inline-block;
+	text-decoration: none;
+}
+
+.overlay-container {
+	background-color: var(--color-light);
+	position: relative;
+	width: 100%;
+}
+
+.background-image#jairo {
+	background-image: url("jairo.jpg");
+}
+
+.background-image#juango {
+	background-image: url("juango.jpg");
+}
+
+.overlay-container .background-image {
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+}
+
+.overlay-container .overlay-text {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: var(--color-light);
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	width: 100%;
+}
+
+

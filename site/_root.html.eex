@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" style="scrollbar-gutter: stable;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./app.js"></script>
+	<link rel="stylesheet" href="./assets/main.css">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <title><%= assigns[:title] || "Vox" %></title>
+
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+	</style>
+
+  </head>
+  <body class="bg-zinc-100 antialiased">
+      <%= @inner_content %>
+  </body>
+</html>
