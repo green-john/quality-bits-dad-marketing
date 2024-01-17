@@ -1,9 +1,9 @@
 :root {
-	--color-main: #D77D71;
-	--color-light: #F5F6F5;
-	--color-light-accent: #9A9EA3;
-	--color-dark: #33302D;
-	--color-dark-accent: #A26352;
+	--color-main: #E64222;
+	--color-light: #FBFAFA;
+	--color-light-accent: #EFD265;
+	--color-dark: #272536;
+	--color-dark-accent: #AE93AD;
 }
 
 .bg-dark {
@@ -59,19 +59,8 @@ a.btn {
 	width: 100%;
 }
 
-.background-image#jairo {
-	background-image: url("jairo.jpg");
-}
-
-.background-image#juango {
-	background-image: url("juango.jpg");
-}
-
-.overlay-container .background-image {
-	background-size: cover;
-	background-position: center;
-	height: 300px;
-	width: 100%;
+.bg-img#group {
+	background-image: url("https://images.unsplash.com/photo-1495837174058-628aafc7d610");
 }
 
 .overlay-container .overlay-text {
